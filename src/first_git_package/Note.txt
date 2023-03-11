@@ -21,3 +21,11 @@ CONTROL+C COMMAND +C
    *git add.
    *git commit -m "added my second java class"
    *git push
+
+
+5.ADDING SPECIFIC FILES
+  *Create 2 JAVA classes : MyThirdClass , MyFourthClass
+  *create a commit with ONLY myFourthClass
+    *git add "src/first_git_package/MyFourthClass.java"
+    *git commit -m "adding fourth class"
+    *git push
